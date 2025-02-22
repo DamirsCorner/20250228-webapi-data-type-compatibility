@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCompatibleTypeChange", "ApiCompatibleTypeChange\ApiCompatibleTypeChange.csproj", "{99FE5BC6-F3E3-4FF7-BB59-C445C86D4FE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCompatibleTypeChange.Tests", "ApiCompatibleTypeChange.Tests\ApiCompatibleTypeChange.Tests.csproj", "{DB03E81B-718A-41EE-A53A-62277B0F9915}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99FE5BC6-F3E3-4FF7-BB59-C445C86D4FE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99FE5BC6-F3E3-4FF7-BB59-C445C86D4FE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99FE5BC6-F3E3-4FF7-BB59-C445C86D4FE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99FE5BC6-F3E3-4FF7-BB59-C445C86D4FE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB03E81B-718A-41EE-A53A-62277B0F9915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB03E81B-718A-41EE-A53A-62277B0F9915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB03E81B-718A-41EE-A53A-62277B0F9915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB03E81B-718A-41EE-A53A-62277B0F9915}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {906CE370-C81A-41B6-A654-A8B190E527C5}
+	EndGlobalSection
+EndGlobal

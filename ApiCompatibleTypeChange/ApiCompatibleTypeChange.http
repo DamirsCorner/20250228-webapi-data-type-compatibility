@@ -1,0 +1,10 @@
+@ApiCompatibleTypeChange_HostAddress = https://localhost:7093
+
+POST {{ApiCompatibleTypeChange_HostAddress}}/weather/
+Accept: application/json
+Content-Type: application/json
+{
+  "temperature": 20.0
+}
+
+###

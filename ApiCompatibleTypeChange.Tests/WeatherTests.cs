@@ -21,7 +21,7 @@ public class WeatherTests
         factory.Dispose();
     }
 
-    [TestCase("20.0", HttpStatusCode.BadRequest)]
+    [TestCase("20.0", HttpStatusCode.Accepted)]
     [TestCase(@"""20.0""", HttpStatusCode.Accepted)]
     [TestCase(@"""Cold""", HttpStatusCode.Accepted)]
     [TestCase(@"""Rainy""", HttpStatusCode.BadRequest)]

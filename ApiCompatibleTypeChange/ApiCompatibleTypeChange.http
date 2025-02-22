@@ -8,3 +8,28 @@ Content-Type: application/json
 }
 
 ###
+
+POST {{ApiCompatibleTypeChange_HostAddress}}/weather/
+Accept: application/json
+Content-Type: application/json
+{
+  "temperature": "20.0"
+}
+
+###
+
+POST {{ApiCompatibleTypeChange_HostAddress}}/weather/
+Accept: application/json
+Content-Type: application/json
+{
+  "temperature": "Cold"
+}
+
+###
+
+POST {{ApiCompatibleTypeChange_HostAddress}}/weather/
+Accept: application/json
+Content-Type: application/json
+{
+  "temperature": "Rainy"
+}

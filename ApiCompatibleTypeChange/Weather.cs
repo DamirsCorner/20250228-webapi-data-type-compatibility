@@ -5,5 +5,6 @@ namespace ApiCompatibleTypeChange;
 public class Weather
 {
     [Required]
-    public double? Temperature { get; set; }
+    [NumericOrOneOf(["Cold", "Hot"])]
+    public string? Temperature { get; set; }
 }
